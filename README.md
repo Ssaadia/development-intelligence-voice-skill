@@ -44,9 +44,9 @@ That interruption wastes valuable autonomous execution time.
 
 # Our Solution
 
-This repository introduces a **Human-in-the-Loop Voice Escalation Skill**.
+This project implements a working Human-in-the-Loop Voice Escalation SKILL using Vocal Bridge. When genuine human judgment is required, the AI coding assistant places an outbound phone call, explains the situation, presents available options, captures the developer's spoken decision, confirms the response, and resumes execution automatically.
 
-Instead of guessing, the assistant:
+Instead of guessing, the assistant follows the sequence:
 
 1. Detects that human judgment is required.
 2. Pauses execution safely.
@@ -61,6 +61,19 @@ The developer never needs to continuously monitor the terminal.
 
 ---
 
+# System Architecture
+
+![System Architecture](images/architecture.png)
+
+# Workflow
+
+![Workflow](images/workflow.png)
+
+# Decision Framework
+
+![Decision Framework](images/decision-framework.png)
+
+---
 # Demo
 
 The repository includes a simple demonstration located in:
@@ -100,7 +113,7 @@ Dashboard successfully completed.
 
 # Terminal Demonstration
 
-![Terminal Demo](images/terminal-demo.png)
+![Terminal Demo](images/agent_terminal.png)
 
 ---
 
